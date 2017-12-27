@@ -4,6 +4,11 @@ import tensorflow as tf
 import matplotlib.pyplot as plt
 from sklearn.utils import shuffle
 
+'''
+카드 오용 탐지 
+url -> https://www.kaggle.com/currie32/predicting-fraud-with-tensorflow
+'''
+
 # csv 파일 읽기
 df = pd.read_csv("creditcard.csv")
 
